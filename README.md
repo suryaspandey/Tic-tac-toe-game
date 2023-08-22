@@ -4,9 +4,9 @@ A classic two-player Tic Tac Toe game implemented in JavaScript. Challenge your 
 Hosted Link: 
 
 
-## Demo
+## Screenshot
 
-![Game Screenshot](screenshot.png)
+![Game Screenshot](https://github.com/suryaspandey/Tic-tac-toe-game/blob/main/tto_thumbnail.PNG)
 ## Features
 
 - Two players can take turns to make their moves.
