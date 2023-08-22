@@ -2,6 +2,11 @@
 A classic two-player Tic Tac Toe game implemented in JavaScript. Challenge your friends and see who can get three in a row first!
 
 Hosted Link: 
+
+
+## Demo
+
+![Game Screenshot](screenshot.png)
 ## Features
 
 - Two players can take turns to make their moves.
