@@ -23,5 +23,8 @@ To play the game locally on your machine, follow these steps:
 
 2. Open the `index.html` file in your browser to start the game.
 
+## Technologies Used: 
+_HTML, CSS, Javascript_
+
 
   
