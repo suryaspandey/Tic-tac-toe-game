@@ -18,6 +18,7 @@ nav{
     font-size: medium;
     /* font-family: 'Courier New', Courier, monospace; */
     font-family: 'Poppins', sans-serif;
+    justify-content: center;
 }
 
 nav ul{
