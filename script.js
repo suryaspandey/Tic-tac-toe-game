@@ -46,7 +46,7 @@ const checkWin = ()=>{
         }
     })
 
-    //draw
+    //draw logic
 
     if(!isGameover) {
         const boxes = document.getElementsByClassName("box");
