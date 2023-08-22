@@ -79,7 +79,7 @@ const fn = () => {
                 if (!isGameover){
                     document.getElementsByClassName("info")[0].innerText  = "Turn for " + turn;
                 } else if(isGameover && isDraw) {
-                    document.getElementsByClassName("info")[0].innerText  = "fuck off";
+                    document.getElementsByClassName("info")[0].innerText  = "Draw!!";
                 }
             }
         })
