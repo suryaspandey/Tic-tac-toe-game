@@ -1,0 +1,130 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+nav{
+    background-color: purple;
+    color: white;
+    height: 80px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: medium;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul{
+    list-style: none;
+}
+
+.gameContainer{
+    padding-top: 2vh;
+    /* background-color: blueviolet; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* /* margin-top: 50px; */
+    /* text-align: center;  */
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+}
+
+.box{ 
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5vw;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 10%; */
+
+}
+
+.box:hover{ 
+    /* background-color: rgb(147, 59, 229); */
+    background-color: rgb(232, 223, 240);
+}
+
+.info{
+    font-size: 20px;
+}
+
+.gameinfo{
+    padding: 50px;
+
+}
+
+.Catimg img{
+    /* display: none; */
+    width: 0px;
+    /* transition: width 2s ease-in-out; */
+    transition: width 2s;
+}
+
+
+#reset{
+    font-size: 20px;
+    color: mediumpurple;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: #f6d9f6;
+}
+
+/* utility classes to remove border lines of the grid */
+
+/* border - top ==> bt */
+.bt{
+    border-top: 0;
+}
+
+.bb{
+    border-bottom: 0;
+}
+
+.bl{
+    border-left: 0;
+}
+
+.br{
+    border-right: 0;
+}
+
+
+@media screen and (max-width:800px) { 
+    .gameContainer{
+        flex-wrap: wrap;
+    }
+
+    .gameinfo{
+        margin-top: 20px;
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+
+    .container{
+        grid-template-rows: repeat(3,22vw);
+        grid-template-columns: repeat(3,22vw);
+    }
+    
+}

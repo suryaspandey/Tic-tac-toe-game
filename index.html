@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li >MyTicTacToe Webpage (https://www.youtube.com/watch?v=sSLGP-_2gOI)</li>
+        </ul>
+    </nav>
+
+    <div class="gameContainer">
+        <div class="container">
+            <!-- <div class="box bt bl" ><span class="boxtext">X</span></div> -->
+            <div class="box bt bl" ><span class="boxtext"></span></div>
+            <div class="box bt" bt><span class="boxtext"></span></div>
+            <div class="box bt br" bt><span class="boxtext"></span></div>
+            <div class="box bl"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box br"><span class="boxtext"></span></div>
+            <div class="box bl bb"><span class="boxtext"></span></div>
+            <div class="box bb"><span class="boxtext"></span></div>
+            <div class="box bb br"><span class="boxtext"></span></div>
+        </div>
+        <div class="gameinfo">
+            <h1 class="title">Tic Tac Toe</h1>
+            <div>
+                <span class="info">Turn for X</span>
+                <button id="reset">Play Again</button>
+            </div>
+            <div class="Catimg">
+                <img class = "cat" src="excited.gif" alt=" " />
+            </div>
+        </div>
+    </div>
+    <canvas class="confetti" id="canvas"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    
+</body>
+</html>
