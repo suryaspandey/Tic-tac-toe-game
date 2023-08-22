@@ -88,6 +88,7 @@ nav ul{
     margin: 5px;
     border-radius: 8px;
     background-color: #f6d9f6;
+    cursor:pointer;
 }
 
 /* utility classes to remove border lines of the grid */
