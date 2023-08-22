@@ -14,9 +14,9 @@ To play the game locally on your machine, follow these steps:
 
 1. Clone this repository to your local machine using:
 
-git clone https://github.com/your-username/tic-tac-toe-game.git
+      git clone https://github.com/suryaspandey/tic-tac-toe-game.git
 
-3. Open the `index.html` file in your browser to start the game.
+2. Open the `index.html` file in your browser to start the game.
 
 
   
