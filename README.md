@@ -1,7 +1,7 @@
 # Tic-tac-toe-game
 A classic two-player Tic Tac Toe game implemented in JavaScript. Challenge your friends and see who can get three in a row first!
 
-Hosted Link: 
+Hosted Link: https://sensational-squirrel-10b5a4.netlify.app/
 
 
 ## Screenshot
